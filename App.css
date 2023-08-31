@@ -1,0 +1,78 @@
+/* App.css */
+
+.atm-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.atm-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.atm-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.atm-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.atm-components {
+  padding: 20px;
+  border-top: 2px solid #333;
+}
+
+.atm-components h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.atm-components label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.atm-components select {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.atm-components button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.atm-components p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.atm-components .withdraw-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
